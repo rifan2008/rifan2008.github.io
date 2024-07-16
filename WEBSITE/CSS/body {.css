@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Aturan media query untuk perangkat mobile */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+}
